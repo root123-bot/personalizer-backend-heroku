@@ -206,7 +206,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 #     os.path.join(BASE_DIR, 'static')  # there is not 'static' folder in BaseDir lazima ilete error..
 # ]
 # STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')  # this will copy all static files to this folder on running 'manage.py collectstatic'
-# STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 
 AUTH_USER_MODEL = 'Register.CustomUser'
