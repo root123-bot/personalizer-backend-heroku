@@ -200,6 +200,7 @@ EMAIL_HOST_PASSWORD = 'opkstfrgmmlsgrhk'  # this is app password for my gmail ht
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 # https://learndjango.com/tutorials/django-static-files
 # STATICFILES_DIRS = [
 #     os.path.join(BASE_DIR, 'static')  # there is not 'static' folder in BaseDir lazima ilete error..
